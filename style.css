@@ -1,0 +1,596 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,800;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* start header */
+header .lite-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+   
+}
+header .lite-nav ul li{
+    list-style: none;
+    
+
+}
+header .lite-nav .icons {
+    text-align:left;
+    /* background-color: black; */
+    /* margin-left: -300px; */
+}
+header .lite-nav .icons ul li
+{text-align: letft
+    ;
+    display: inline-block;
+    margin:0 10px;
+    color: #b6b6b6;
+}
+header .lite-nav .expre{
+    height: 20px;
+    overflow:hidden;
+    position: relative;
+    text-align: right;
+    /* animation:move 5s infinite alternate ; */
+}
+@keyframes move {
+    0% {
+      
+        transform: translateY(0px);
+      }
+      33% {
+        transform: translateY(-25px);
+      }
+      66% {
+        transform: translateY(-50px);
+      }
+      100% {
+        transform: translateY(0);
+        
+        
+        
+      }
+    
+}
+header .lite-nav .expre ul li{
+    display: block;
+    margin: 3px;
+    color: #b6b6b6;
+    font-size: 15px; 
+
+    animation:move 10s infinite alternate;
+ 
+}
+ .break{
+    height: .2px;
+    width:1900px;
+    background-color:#b6b6b6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* end  headr */
+/* start nav */
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:50px ;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 40px;
+}
+nav .main-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    width: 110px;
+    height: 25px;
+}
+nav .image{
+    width: 25%;
+    text-align: right;
+}
+nav .main-nav{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    position: relative;
+    left: 25px;
+}
+nav .search{
+    width: 15%;
+    margin-top: 30px;
+    text-align:left;
+    position: relative;
+    left:80px;
+  
+   
+}
+nav .search:hover{
+    color: #40ba37;
+    transition: .5s ease-in-out;
+}
+nav .main-nav ul li:hover{
+    background-color: #40ba37;
+    color: #fff;
+    transition:.5s ease-in-out ;
+
+    border-bottom: 4px solid #1c8314;
+    
+}
+/* end nav */
+/* recommend */
+.recomend{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.recomend .image img{
+    max-width: 100%;
+   
+}
+.recomend .image2 img{
+    max-width: 100%;
+   
+}
+.recomend .image{
+    margin: 0 10px;
+    width: 600px;
+    height: 250px;
+}
+.recomend .image2{
+    margin: 0 10px;
+    width: 600px;
+    height: 250px;
+}
+.recomend .image::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 275px;
+    background: linear-gradient(to right, #000, transparent);
+}
+.recomend .image2::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 275px;
+    background: linear-gradient(to right, #000, transparent);
+}
+.recomend .details{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: #fff;
+    line-height: 40px;
+    margin-left: 40px;
+   
+
+}
+.recomend .details button{
+    margin-top: 20px;
+    width: 175px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #40ba37;
+    border: 1px solid #40ba37;
+}
+.recomend .details button:hover{
+    transition:.3s ease-in-out ;
+
+    border-left: 8px solid #1c8314;
+}
+.recomend .receipe1{
+    position: relative;
+}
+.recomend .receipe2{
+    position: relative;
+}
+/* end */
+/* start rating */
+.rating{
+    margin: 80px;
+    
+}
+.rating h1{
+    text-align: center;
+}
+.rating .boxs{
+    /* width: 1190px; */
+    text-align: center;
+   
+    margin: 25px auto;
+    
+}
+.rating .boxs .box{
+    width: 350px;
+    height: 385px;
+}
+.rating .boxs .box .image img{
+    max-width: 100%;
+}
+
+.rating .boxs .box .image
+{
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.rating .boxs .box .image::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    background-color: #40ba37;
+}delicious
+
+.rating .boxs .box .name {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.rating .boxs .box .name:hover{
+    color: #40ba37;
+    transition: .3s ease-in-out;
+}
+.rating .boxs ul li .box .ratinge{
+    text-align: center;
+margin-top:20px ;
+} 
+.rating .boxs ul {
+    width: 1179px;
+    list-style: none;
+    display: inline-block;
+ 
+   
+}
+.rating .boxs ul li{
+    display: inline-block;
+    margin: 30px 20px;
+}
+.rating .boxs ul li .box .ratinge .check{
+    color: rgb(247, 161, 14);
+}
+/* end */
+/* bg */
+.bg-image{
+    background-image: url(images/bg4.jpg.webp);
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 675px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+    .bg-image::after{
+        background-color: rgba(10, 12, 18, 0.55);
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+    }
+    .bg-image .inf{
+        color: #fff;
+        text-align: center;
+        padding-top: 250px;
+    }
+    .bg-image .inf h1{
+        font-size: 80px;
+        font-weight: lighter;
+    }
+    .bg-image .inf button{
+        margin-top: 100px;
+        width: 250px;
+        height: 60px;
+        background-color: #40ba37;
+        font-size: 18px;
+        color: #fff;
+        border: 1px solid #40ba37;
+        border-left: 5px solid #1c8314;
+    }
+    .bg-image .inf button:hover{
+        background-color: #1c8314;
+        border: 1px solid #1c8314;
+        border-left: 5px solid #40ba37;
+        transition:.3s ease-in-out ;
+    }
+    .bg-image .inf .inf2{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    /* end */
+    /* fast food */
+    .fast-food{
+        width: 1100px;
+        
+        margin: 50px auto;
+        
+    }
+    .fast-food .boxs ul li .box{
+        display: flex;
+        width: 300px;
+        margin: 25px;
+    }
+    .fast-food .boxs ul li {
+        display: inline-block;
+    }
+    .fast-food .boxs ul {
+        list-style: none;
+    }
+    .fast-food .boxs ul li .box .inf5{
+        margin-left:20px ;
+    }
+    .fast-food .boxs ul li .box .inf5 .time{
+        color: #40ba37;
+        font-size: 12px;
+    }
+    .fast-food .boxs ul li .box .inf5 .name2{
+        font-size: 17px;
+        width: 240px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .fast-food .boxs ul li .box .inf5 .name2:hover{
+        color: #40ba37;
+        transition: .3s ease-in-out;
+    }
+    .fast-food .boxs ul li .box .inf5 .check{
+        color: rgb(247, 161, 14);
+    }
+    .fast-food .boxs ul li .box .inf5  .com{
+        font-size: 10px;
+    }
+    /* end */
+    /* start cont */
+    .cont{
+        width: 1100px;
+      
+      
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .cont .box1{
+        width: 350px;
+        background-color:#fff;
+        height: 450px;
+        text-align: center;
+        line-height: 60px;
+        color: #b6afaf;
+        border: 10px solid #40ba37;
+        margin: 0 20px;
+    }
+    .cont .box1 h1{
+        color: #40ba37;
+    }
+    .cont .box1 h3{
+        width: 250px;
+       font-size: 20px;
+        line-height: 50px;
+        /* background-color: #40ba37; */
+        margin: 40 auto 10;
+    }
+   
+    .cont .box1 .inf6{
+        display: flex;
+        justify-content: space-around;
+    }
+    .cont .box2{
+        width: 350px;
+        text-align: center;
+        margin: 1 20 0 0;
+    }
+    .cont .box2 h1{
+        width:400px ;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .cont .box2 .main{
+        background-image: url(images/fast/bg1.jpg.webp);
+        background-position: center center;
+        background-size: cover;
+        height: 365px;
+      
+    }
+    .cont .box2 .main .all{
+        padding:30 15;
+    }
+    .cont .box2 .main .all input{
+        width: 100%;
+        height: 60px;
+    }
+    .cont .box2 .main .all input::placeholder{
+        padding-left: 20px;
+    }
+    .cont .box2 .main .all button{
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #fff;
+        background-color: #40ba37;
+        border-left: 5px solid #1c8314;
+        margin-top: 20px;
+    }
+    .cont .box2 .main .all p {
+color: #fff;
+text-align: left;
+font-size: 13px;
+margin-top: 40px;
+    }
+    .cont .box3 {
+        width: 350px;
+        margin: 0 20px;
+       
+    }  
+    .cont .box3 .image{
+        width: 100%;
+        height: 450px;
+      
+    }
+    /* end */
+    /* start insta */
+    .pic-insta {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 0 0 100px 0;
+    }
+    .pic-insta .pic1
+    {
+        width:calc(100%/7);
+        
+           }
+           .pic-insta .pic1:hover .image img{
+            transform: rotate(5deg) scale(1.2);
+            transition: .5s ease-in-out ;
+           }
+    .pic-insta .pic1 .image{
+        width:270px;
+        height: 270px;
+        overflow: hidden;
+       
+      
+    }
+    .pic-insta .pic1 .image img{
+        max-width: 100%; 
+       
+        object-fit: cover;
+        
+    }
+    .pic-insta .pic1 .image img:hover{
+        transform: scale(1.2);
+        transform: rotate(20deg);
+        transition: .5s ease-in-out ;
+        /* .insta{
+            opacity: .4;
+        } */
+        
+    }
+    /* .pic-insta .pic1 .image i{
+        position: absolute;
+        top: 100px;
+            left: 120px;opacity: 0;} */
+    
+    
+  
+    .pic-insta .pic1 .insta{
+        width: 270px;
+        height: 270px;
+        background-color: #40ba37;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        opacity: .0;
+       
+        
+    }
+    .pic-insta .pic1 .insta a{
+        color: #000;
+        line-height: 270px;
+    }
+    .pic-insta .pic1 a .insta i{
+        line-height: 270px;
+    }
+    .pic-insta .pic1 .insta:hover{
+        
+       opacity: .7;
+         transition: .5S ;
+    }
+    .false{
+        text-align: center;
+        margin: 40px;
+    }
+    /* end */
+    /* start footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    
+    
+    position: relative;
+    left:-120px;
+   
+}
+footer .icons ul {
+list-style: none;
+
+}
+footer .icons {
+   width: 40%;
+   text-align: right;
+   
+}
+footer .icons ul li {
+    display: inline-block;
+    margin: 5 15px;
+    color: #b6b6b6;
+}
+footer .icons ul li:hover{
+    color: #40ba37;
+    transition: .3s ease-in-out;
+}
+footer .image{
+    /* padding-top:-5px; */
+    width: 20%;
+    text-align: center;
+    position: relative;
+
+}
+footer .image img{
+    margin-top: -30px;
+}
+footer .copy{
+    width: 40%;
+    text-align: left;
+    font-size: 15px;
+   
+}
+footer .copy span:hover{
+    color: #40ba37;
+    transition: .3s ease-in-out;
+}
+/* end */
+.to-top{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #40ba37;
+    border: 1px solid #40ba37;
+    color: #fff;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+}
+.to-top:hover{
+    background-color: #000;
+    border: 1px solid #000;
+   transition: .3s ease-in-out;
+   z-index: 10;
+}
+ 
